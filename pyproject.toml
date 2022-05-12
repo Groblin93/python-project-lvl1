@@ -9,12 +9,14 @@ authors = ["Groblin <lebedivanm@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.16.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.scripts.main:main"
