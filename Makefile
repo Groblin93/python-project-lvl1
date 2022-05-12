@@ -1,7 +1,7 @@
 install: #установить зависимости
 	poetry install
 	poetry add prompt
-	portry add flake8
+	poetry add flake8
 
 brain-games: #запустить пакет
 	poetry run brain-games
